@@ -1,0 +1,77 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{font-family: 'Montserrat', sans-serif;}
+.navbar{box-shadow: 0px 5px 10px rgba(0,0,0,0.3);}
+.logo img{height: 50px;width:auto;}
+.blue-bg{background-color: #4343e8;}
+.font-18{font-size: 18px;}
+.blue-span{color:#4343e8;font-weight: 600;}
+.coworking-space, .coliving-space, .office-space{border:1px solid #000;box-shadow: 0px 6px 12px rgba(0,0,0,0.2);border-radius: 12px;}
+.font-15{font-weight: 600; font-size: 15px;line-height: 16px;margin-top:10px;}
+.day-pass, .open-desk, .dedicated-desk, .private-cabin{border:2px solid #4343e8;box-shadow: 0px 6px 12px rgba(67,67,232,0.4);border-radius: 10px;/*background-color: rgba(67,67,232,1);*/margin:20px 0px;}
+.bangalore{position: relative;}
+.all-info .bangalore{position: relative;}
+.all-info .bangalore img{border-radius: 10px;height: 120px;width: 100px;object-fit: cover;}
+.all-info .bangalore .bangalore-info{position: absolute;display: block;z-index: 9999;bottom:0px;left: 0%;}
+.bangalore img{border-radius: 10px;}
+.bangalore-info{background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 1) 100%);width:100%;border-radius: 10px;position: absolute;display: block;z-index: 9999;bottom:-10px;left: 0%;}
+.bangalore-info p.font-10{font-size: 10px;font-weight: 500;margin-bottom: 5px;}
+p.top-coworking, p.top-coliving{position: relative;font-size: 18px;font-weight:600;}
+		p.top-coworking::before, p.top-coliving::before{
+			content: "";
+			height: 40px;
+			width: 40px;
+			background-color: #FFE785;
+			border-radius: 100%;
+			position: absolute;
+			z-index: -1;
+		}
+		.coworking-space img{height: 50px;width:auto;}
+		.coworking-name{font-weight: 600;font-size: 15px;}
+		p.top-coworking::before{top:-15px;left: 20px;}
+		p.top-coliving::before{top:-15px;left: 35px;}
+		.top-spaces{position: relative;}
+		.top-coworking-info img{border-radius: 10px;height: 700px;width: 165px;height: 190px;object-fit: cover;}
+		.top-coworking-info .bangalore-info{position: absolute;display: block;z-index: 9999;bottom:-10px;left: 0%;}
+		.top-coliving-info img{border-radius: 10px;height: 700px;width: 165px;height: 190px;object-fit: cover;}
+		.top-coliving-info .bangalore-info{position: absolute;display: block;z-index: 9999;bottom:-10px;left: 0%;}
+.space-types{border-radius: 10px;}
+.font-weight-600{font-weight:600}
+.img-ht-50{height: 50px;width:auto;}
+.img-ht-130{height: 130px;width:auto;}
+.new-coworking-box img{height: 130px;width: auto;object-fit: cover;border-radius: 10px;}
+.new-coworking-box a{background-color:#4343e8;font-size:14px;font-weight: 500;border-radius: 4px;padding:1px 15px 5px 15px;}
+.font-11{font-size: 11px;font-weight: 600;}
+.space-name{font-weight: 600;}
+.owl-theme .owl-nav{display: none;}
+.owl-theme .owl-dots, .owl-theme .owl-nav{margin-top:10px;}
+
+.carousel-indicators{
+	left:20px !important;
+	bottom:-50px !important;
+}
+.carousel-indicators li{
+	background-color: #000 !important;
+	height: 5px !important;
+}
+.covid-19{background-color: #4343e8;border-top-left-radius: 12px;border-top-right-radius: 12px;}
+.covid-19-info{border-top-left-radius: 12px;border-top-right-radius: 12px;}
+.dark-brown{color: #bd8a00;}
+.font-15{font-size: 15px;line-height: 18px;font-weight: 600;margin:10px 0px;}
+.font-22{font-size: 22px;font-weight: 600;}
+.font-24{font-size: 24px;font-weight: 600;}
+.about-cofynd hr{border-color: #4343e8 !important;}
+.text-blue{color:#4343e8;}
+.cofynd-benifits .covid-19-info{border-radius: 12px;}
+.benifits-box{box-shadow: 0px 6px 12px rgba(0,0,0,0.2);border-radius: 12px;}
+.benifits-box p{font-size: 15px;line-height: 18px;font-weight: 600;margin:10px 0px;}
+.coupons hr{border-color: #4343e8 !important;}
+.coupons-box{position: relative;}
+.coupons-box .coupon{border-radius: 100%;border:1px solid #ccc;z-index:99;}
+.coupons-box .coupon img{border-radius: 100%;}
+.coupons-box .coupon p{z-index: 99999;position: relative;bottom: 10px;}
+.coupons-box .coupon p span{background-color:#4343e8;border:2px solid #4343e8;padding:5px 10px;border-radius: 10px;font-size: 12px;font-weight: 600;bottom:20px;}
+.new-coworking-box{border-radius: 12px;}
+.explore-more{border:2px solid #000;border-radius: 5px;padding:3px 20px;font-weight: 600;}
+.coworking-ads img{border-radius: 12px;}
